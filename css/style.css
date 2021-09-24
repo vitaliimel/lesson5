@@ -1,0 +1,358 @@
+/*Fonts*/
+
+/* &display=swap&subset=cyrillic-ext */
+@font-face {
+   font-family: "Eurotypo SII Ultra Condensed";
+   src: url("../fonts/EurotypoSII-Ultracondensed.woff2") format("woff2"),
+      url("../fonts/EurotypoSII-Ultracondensed.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px;
+}
+body {
+   line-height: 1;
+   font-family: "Eurotypo SII Ultra Condensed", serif;
+   font-weight: 700;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   background-color: #2d3033;
+}
+/* --------------- */
+body {
+   color: #2d3033;
+}
+.container {
+   max-width: 1200px;
+   margin: 0px auto;
+   background-color: #d4dde1;
+   padding: 0px 10px 0px 10px;
+}
+
+/*---------------HEADER---------------*/
+.header {
+}
+.header__container {
+}
+.go-down {
+   display: inline-block;
+}
+.title {
+   font-family: "Coda Caption", sans-serif;
+   text-shadow: 0px 8px 5px #a89c99;
+   font-size: 55px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.menu {
+   margin: 30px 0px 0px 0px;
+}
+.list {
+   font-size: 0;
+   text-align: center;
+}
+.link a {
+   color: whitesmoke;
+}
+.link {
+   font-size: 25px;
+   display: inline-block;
+   background-color: teal;
+   padding: 10px;
+   margin: 0px 10px 0px 0px;
+}
+
+/*----------------MAIN-----------------*/
+.page {
+}
+.page__container {
+}
+.container {
+}
+
+.subtitle {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline-block;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+
+.experiment {
+   background-color: #aa4b41;
+   padding-top: 20px;
+}
+.experiment img {
+   display: block;
+   padding: 0px 0px 10px 0px;
+}
+
+.example-img-one img {
+   max-width: 100%;
+   margin-bottom: -100px;
+}
+.example-img-two img {
+   max-width: 100%;
+   margin: 0 0 0 auto;
+}
+.example-img-three img {
+   max-width: 100%;
+   margin: -100px 0px 0px 0px;
+}
+.experiment-two {
+   font-size: 0px;
+   padding: 40px;
+   overflow: hidden;
+   background-color: teal;
+   text-align: center;
+}
+.experiment-two img {
+   display: inline;
+   max-width: 540px;
+   max-height: 400px;
+   font-size: 20px;
+}
+
+.img-line-one img {
+}
+.img-line-two img {
+}
+.img-line-three {
+}
+/*----------four span-------------*/
+.block-span {
+   background-color: teal;
+   margin-bottom: 10px;
+}
+.block-span-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+
+.block-span-task {
+   padding: 10px;
+}
+
+.block-span-task span {
+   color: whitesmoke;
+   display: block;
+   background-color: #aa4b41;
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 25px;
+
+   letter-spacing: 10px;
+   padding: 10px;
+}
+/*----------line divs-------------*/
+.block-div {
+   background-color: teal;
+   font-size: 0px;
+   padding: 10px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+.block-div-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.block-div-task div {
+   display: inline-block;
+   max-width: 200px;
+   max-height: 200px;
+   padding: 15px;
+   background-color: #d4dde1;
+   overflow: scroll;
+   font-size: 20px;
+   margin: 20px 0px;
+   vertical-align: top;
+   line-height: 250%;
+   white-space: nowrap;
+}
+
+/*----------link-------------*/
+.block-link {
+   background-color: teal;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+.block-link-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.block-link-task a {
+   background-color: #d4dde1;
+   display: inline-block;
+   font-size: 45px;
+   margin-bottom: 30px;
+   color: #2d3033;
+}
+
+/*----------pppp-------------*/
+.block-link-task p {
+   color: whitesmoke;
+}
+.block-p {
+   background-color: teal;
+   text-align: center;
+   margin-bottom: 10px;
+}
+.block-p-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.block-p-task p {
+   display: inline-block;
+   max-width: 100px;
+   background-color: #aa4b41;
+   margin: 10px 30px 10px 0px;
+   padding: 10px;
+   text-align: left;
+}
+
+/*----------two divs-------------*/
+.block-twodiv {
+   background-color: teal;
+   margin-bottom: 10px;
+}
+.block-twodiv-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.block-twodiv-task {
+   margin-bottom: 10px;
+   padding: 10px;
+}
+.first-div {
+   background-color: #d4dde1;
+   max-width: 700px;
+   max-height: 400px;
+   padding: 30px;
+   overflow: auto;
+   margin: 0 auto;
+   text-align: justify;
+   text-transform: lowercase;
+   font-size: 25px;
+}
+.second-div {
+   background-color: #aa4b41;
+   max-width: 600px;
+   max-height: 300px;
+   padding: 30px;
+   overflow: hidden;
+   margin: 0 auto;
+   text-align: justify;
+   margin-top: -20px;
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+/*----------big span-------------*/
+.block-big-span {
+   background-color: teal;
+}
+.block-big-span-title {
+   font-size: 35px;
+   font-weight: 700;
+   display: inline;
+   text-align: center;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+.block-big-span-task {
+   display: inline-block;
+   background-color: #aa4b41;
+   color: whitesmoke;
+   line-height: 170%;
+   font-size: 20px;
+   word-spacing: 3px;
+   letter-spacing: 3px;
+   max-height: 200px;
+   overflow: auto;
+   text-align: justify;
+}
+
+/*----------------FOOTER-----------------*/
+.footer {
+}
+.footer-link {
+}
+.link {
+}
+.img {
+   padding: 10px;
+   min-width: 104px;
+   min-height: 100px;
+}
